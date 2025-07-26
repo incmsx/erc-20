@@ -1,13 +1,9 @@
-# Sample Hardhat Project
+# ERC-20 SomeToken(STK)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+## Ccылка на токен
 
-Try running some of the following tasks:
+[x51a693df59578135e6a35f5b78586b3110e45baf](https://sepolia.etherscan.io/token/0x51a693df59578135e6a35f5b78586b3110e45baf)
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
 ```
+
+
