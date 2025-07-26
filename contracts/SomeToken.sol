@@ -19,11 +19,10 @@ contract SomeToken is ERC20, Ownable {
         }
     }
 
-    function mint(address account, uint256 value) public onlyOwner{
+    function mint(address account, uint256 value) external onlyOwner{
         if (totalSupply() + value > MAX_SUPPLY){
             revert MaxSupplyExceeded(totalSupply() + value, MAX_SUPPLY);
         }
         _mint(account, value);
-    } 
-
+    }
 }
